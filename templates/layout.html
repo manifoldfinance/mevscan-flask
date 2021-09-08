@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>🔮 MEV Scan</title>
+      
+      
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha384-mlceH9HlqLp7GMKHrj5Ara1+LvdTZVMx4S1U43/NxCvAkzIo8WJ0FE7duLel3wVo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- <script src="https://unpkg.com/gojs/release/go-debug.js"></script> -->
+        
+    </head>
+
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+        body{
+            background-color: #f2f5fa; 
+            text-align: center;
+        }
+        h1{
+            font-family: 'Share Tech Mono', monospace;
+            font-weight: normal;
+            color: #f2f5fa;
+            font-size: 2.5em;
+        }
+        </style>
+
+    <body>
+        <div style="background: black;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="/" class="navbar-brand" style="color: white"><h1>MEV Scan</h1></a>
+                        <form class="d-flex" action="/address" method="get">
+                            <input class="form-control" placeholder="search by address" name="address" type="text" />&nbsp;
+                            <button class="btn btn-primary" type="submit">search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
+
+        {% block content %}
+        {% endblock %}
+
+        <footer style="display:flex; align-self: center; justify-content: center;">
+            <p>  <a href="https://t.me/manifoldfinance">Manifold Finance </a> - <a href="https://github.com/manifoldfinance">GitHub - MIT Licensed</a></p>
+      </footer>
+    </body>
+</html>
