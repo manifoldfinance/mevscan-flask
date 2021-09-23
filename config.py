@@ -1,6 +1,7 @@
 INFURA_URL = "https://mainnet.infura.io/v3/51f84cc2f3374b388939ef48c00e87ac"
 
 MINERS = {
+    "0x2A0eEe948fBe9bd4B661AdEDba57425f753EA0f6": "666pool",
     "0x00192fb10df37c9fb26829eb2cc623cd1bf599e8": "2Miners: PPLNS",
     "0x002e08000acbbae2155fab7ac01929564949070d": "2Miners: SOLO",
     "0xc839ee5542b4e8413246b3634c5c739fea949562": "AlphaPool",
@@ -42,6 +43,7 @@ MINERS = {
     "0xd34da389374caad1a048fbdc4569aae33fd5a375": "Genesis Mining",
     "0xd0db3c9cf4029bac5a9ed216cd174cba5dbf047c": "HashON Pool",
     "0x1ad91ee08f21be3de0ba2ba6918e714da6b45836": "Hiveon Pool",
+    "0x1aD91ee08f21bE3dE0BA2ba6918E714dA6B45836": "Hiveon Pool2",
     "0x4c549990a7ef3fea8784406c1eecc98bf4211fa5": "Hiveon: Old Pool",
     "0x14b30f257c2737370203a15aa343c2b600dfb675": "Huixingpool.com",
     "0x9d6d492bd500da5b33cf95a5d610a73360fcaaa0": "Huobi Mining Pool",
@@ -61,9 +63,11 @@ MINERS = {
     "0xd5bbb4264b70ca4f58c45d27b9d7e11190754a54": "NoobPool",
     "0x6b7d50bb8fab584e54251a10e1c6cfa51dd7b618": "PandaPool",
     "0x47c439c8784b44366735fc2cfe08228cb91d5b8e": "PoolHub",
-    "0xa7b0536fb02c593b0dfd82bd65aacbdd19ae4777": "Poolin",
+    "0xa7b0536fb02c593b0dfd82bd65aacbdd19ae4777": "Poolin1",
+    "0xc8F595E2084DB484f8A80109101D58625223b7C9": "Poolin2",
     "0xe16263ee79b0ee32c242c99f02559e92abaea9eb": "SaturnPool",
     "0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c": "Spark Pool",
+    "0x0708F87A089a91C65d48721Aa941084648562287": "SpiderPool",
     "0x1dcb8d1f0fcc8cbc8c2d76528e877f915e299fbe": "Suprnova",
     "0x63a9975ba31b0b9626b34300f7f627147df1f526": "Suprnova 2",
     "0xa3c084ae80a3f03963017669bc696e961d3ae5d5": "Uleypool",
