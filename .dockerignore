@@ -7,6 +7,8 @@ __pycache__/
 *$py.class
 .mypy_cache
 .vscode
+test/
+tests/
 
 # C extensions
 *.so
