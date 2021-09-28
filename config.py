@@ -10,6 +10,7 @@ MINERS = {
     "0xff1b891969773159366ab6310ff63a69ac4acffd": "BaikalMine 1",
     "0x4ff271d3e8298213be3d88d257f3973a4b6d727b": "Baypool",
     "0x99c85bb64564d9ef9a99621301f22c9993cb89e3": "BeePool",
+    "0x01ca8a0ba4a80d12a8fb6e3655688f57b16608cf": "Binance, pool.binance.com",
     "0xf3b9d2c81f2b24b0fa0acaaa865b7d9ced5fc2fb": "BitClubPool",
     "0xeea5b82b61424df8020f5fedd81767f2d0d25bfb": "BTC.com Pool",
     "0x52e44f279f4203dcf680395379e5f9990a69f13c": "Bw Pool",
