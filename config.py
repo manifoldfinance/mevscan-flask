@@ -1,6 +1,7 @@
 INFURA_URL = "https://mainnet.infura.io/v3/51f84cc2f3374b388939ef48c00e87ac"
 
 MINERS = {
+    "0xB7e390864a90b7b923C9f9310C6F98aafE43F707": "private_miner07",
     "0x2A0eEe948fBe9bd4B661AdEDba57425f753EA0f6": "666pool",
     "0x00192fb10df37c9fb26829eb2cc623cd1bf599e8": "2Miners: PPLNS",
     "0x002e08000acbbae2155fab7ac01929564949070d": "2Miners: SOLO",
