@@ -1,4 +1,20 @@
 INFURA_URL = "https://mainnet.infura.io/v3/51f84cc2f3374b388939ef48c00e87ac"
+"""
+@TODO
+Add these following miner addresses:
+
+2miners
+4hash
+crazypool
+k1-pool
+luxor
+minerall
+miningexpress
+miningpoolhub
+pandapool
+solopool
+viabtc
+"""
 
 MINERS = {
     "0xB7e390864a90b7b923C9f9310C6F98aafE43F707": "private_miner07",
